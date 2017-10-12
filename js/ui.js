@@ -5,7 +5,7 @@
 
     // 지역 내 참조 변수 선언
     var forEach = Array.prototype.forEach;
-    var document, mainBtns, mainContent, subBtns, subContent, title, subTitle, whatIsIt, putId, titleValue, mainActiveBtn, subActiveBtn;
+    var document, mainBtns, mainContent, subBtns, subContent, typeBtns, typeContent, title, subTitle, whatIsIt, putId, titleValue, mainActiveBtn, subActiveBtn, typeActiveBtn;
     
     // 초기화 함수
     function init() {
@@ -17,6 +17,9 @@
       subContent = document.querySelector('.text');
       title = document.querySelector('.title');
       subTitle = document.querySelector('.sub-title');
+      typeBtns = document.querySelectorAll('.type-btns button');
+      typeContent = document.querySelector('.type');
+
       bindEvents();
     }
 
@@ -29,6 +32,11 @@
     
       forEach.call(subBtns, function(btn){
         whatIsIt = subBtns;
+        btn.addEventListener('click', changeClass.bind(btn, whatIsIt));
+      });
+
+      forEach.call(typeBtns, function(btn){
+        whatIsIt = typeBtns;
         btn.addEventListener('click', changeClass.bind(btn, whatIsIt));
       });
     }
@@ -44,7 +52,7 @@
         titleValue = this.textContent;
         title.textContent = titleValue;
         mainContent.classList = [putId];
-      } else {
+      } else if (whatIsIt === subBtns) {
         subActiveBtn = document.querySelector('.sub-btns button.active');
         subActiveBtn.classList = [];
         this.classList = ['active'];
@@ -52,6 +60,12 @@
         titleValue = '[ ' + this.textContent + ' ]';
         subTitle.textContent = titleValue;
         subContent.classList = [putId];
+      } else {
+        typeActiveBtn = document.querySelector('.type-btns button.active');
+        typeActiveBtn.classList = [];
+        this.classList = ['active'];
+        putId = 'text' + ' ' + this.getAttribute('id');
+        typeContent.classList = [putId];
       }
     }
 

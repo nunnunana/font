@@ -18,7 +18,7 @@ input {
   width: 100%;
 }
 
-.headline, .font-test, .text div, .main-btns, .sub-btns, .sub-title, .type-btns, footer {
+.headline, .font-test, .text div, .main-btns, .sub-btns, .sub-title, footer{
   box-sizing: border-box;
   padding: 0 10%;
 }
@@ -35,15 +35,15 @@ input {
   padding-top: 50px;
   padding-bottom: 50px; 
 }
-.text div.type1{
+.text div:nth-of-type(1){
   background: #eee;
 }
 
-.text div.type2{
+.text div:nth-of-type(2){
   background: yellow;
 }
 
-.text div.type3{
+.text div:nth-of-type(3){
   background: black;
   color: white;
 }
@@ -75,31 +75,21 @@ input {
   margin-bottom: 20px;
 }
 
-.main-btns, .sub-btns, .type-btns{
+.main-btns, .sub-btns{
   list-style: none;
   width: 100%;
   margin-bottom: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-.main-btns{
   border-top: 1px solid #dedfdf;
   border-bottom: 1px solid #dedfdf;
 }
-.sub-btns{
-  border-top: 1px solid #dfdfdf;
-  border-bottom: 1px solid #dfdfdf;
-}
-.type-btns{
-  /* border-top: 1px solid #dedfdf;
-  border-bottom: 1px solid #dedfdf; */
-}
-.main-btns li, .sub-btns li, .type-btns li{
+.main-btns li, .sub-btns li{
   float: left;
   margin-right: 30px;
   line-height: 1.4em;
 }
-.main-btns button, .sub-btns button, .type-btns button{
+.main-btns button, .sub-btns button{
   padding: 0;
   border: 0 none;
   line-height: 1.4em;
@@ -108,14 +98,14 @@ input {
   vertical-align: baseline;
   color: #181818;
 }
-.main-btns button:hover, .sub-btns button:hover, .type-btns button:hover{
+.main-btns button:hover, .sub-btns button:hover{
   text-decoration: underline;
   color: pink;
 }
-.main-btns button:focus, .sub-btns button:focus, .type-btns button:focus{
+.main-btns button:focus, .sub-btns button:focus{
   outline: 1px dotted pink;
 }
-.main-btns button::before, .sub-btns button::before, .type-btns button::before{
+.main-btns button::before, .sub-btns button::before{
   content: '>';
   width: 10px;
   display: inline-block;
@@ -123,29 +113,28 @@ input {
   vertical-align: bottom;
   font-size: 0.7em;
 }
-.main-btns button.active, .sub-btns button.active, .type-btns button.active{
+.main-btns button.active, .sub-btns button.active{
   text-decoration: underline;
   color: pink;
 }
-.main-btns button.active::before, .sub-btns button.active::before, .type-btns button.active::before{
+.main-btns button.active::before, .sub-btns button.active::before{
   content: '✓';
 }
 
-.sub-btns button, .sub-title, .type-btns button{
+
+.sub-btns button, .sub-title{
   text-transform: uppercase;
 }
-.sub-btns button, .type-btns button{
+.sub-btns button{
   font-size: 16px;
 }
 
 .sub-title{
   font-size: 30px;
 }
-.type *{
-  margin-bottom: 20px;
-}
+
 footer{
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
