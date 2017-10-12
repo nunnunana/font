@@ -1,0 +1,79 @@
+/* 노토 */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+/* 나눔고딕 */
+@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+/* 나눔스퀘어 */
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+/* 나눔바른고딕 */
+@import url('https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css');
+/* 노토산스 */
+@import url('https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css');
+/* 스포카 */
+@import url('https://d24uop4wk69tt0.cloudfront.net/css/SpoqaHanSans-kr.css');
+
+.nanumgothic {
+  font-family: 'Lato','Nanum Gothic', sans-serif;
+}
+.nanumsquare {
+  font-family: 'Lato','NanumSquare', sans-serif;
+}
+.nanumbarungothic {
+  font-family: 'Lato','Nanum Barun Gothic', sans-serif;
+}
+.notosans {
+  font-family: 'Lato','Noto Sans Korean', sans-serif;
+}
+.spoqa {
+  font-family: 'Lato','SpoqaHanSans', sans-serif;
+}
+
+/** 이하는 공통 **/
+
+h1 {
+  padding-bottom: 8px;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;;
+}
+
+h5 {
+  font-size: 18px;;
+}
+
+h6 {
+  font-size: 17px;
+}
+
+p.larger {
+  font-size: 16px;
+}
+
+p.large {
+  font-size: 15px;
+}
+
+p.normal {
+  font-size: 14px;;
+}
+
+p.medium {
+  font-size: 13px;
+}
+
+p.small {
+  font-size: 12px;;
+}
+
+p.tiny {
+  font-size: 11px;
+}
