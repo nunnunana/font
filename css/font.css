@@ -10,21 +10,23 @@
 @import url('https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css');
 /* 스포카 */
 @import url('https://d24uop4wk69tt0.cloudfront.net/css/SpoqaHanSans-kr.css');
+/* 스포카 */
+@import url('http://fonts.googleapis.com/css?family=Inconsolata&text=1234567890!#$%*&');
 
 .nanumgothic {
-  font-family: 'Lato','Nanum Gothic', sans-serif;
+  font-family: 'Inconsolata', 'Lato', 'Nanum Gothic', sans-serif;
 }
 .nanumsquare {
-  font-family: 'Lato','NanumSquare', sans-serif;
+  font-family: 'Inconsolata', 'Lato', 'NanumSquare', sans-serif;
 }
 .nanumbarungothic {
-  font-family: 'Lato','Nanum Barun Gothic', sans-serif;
+  font-family: 'Inconsolata', 'Lato', 'Nanum Barun Gothic', sans-serif;
 }
 .notosans {
-  font-family: 'Lato','Noto Sans Korean', sans-serif;
+  font-family: 'Inconsolata', 'Lato', 'Noto Sans Korean', sans-serif;
 }
 .spoqa {
-  font-family: 'Lato','SpoqaHanSans', sans-serif;
+  font-family: 'Inconsolata', 'Lato', 'SpoqaHanSans', sans-serif;
 }
 
 /** 이하는 공통 **/

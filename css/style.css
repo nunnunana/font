@@ -18,11 +18,10 @@ input {
   width: 100%;
 }
 
-.headline, .font-test, .text div, .main-btns, .sub-btns, .sub-title, .type-btns, footer {
+.headline, .font-test, .text div, .main-btns, .sub-title, .type-btns, footer, .font-type {
   box-sizing: border-box;
   padding: 0 10%;
 }
-
 .font-test textarea{
   box-sizing: border-box;
   width: 100%;
@@ -68,17 +67,28 @@ input {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 .title, .sub-title {
   box-sizing: border-box;
   padding: 0 10%;
   margin-bottom: 20px;
 }
 
+.title{
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dedfdf;
+}
+.type-btns{
+  border-bottom: 1px solid #dedfdf;
+
+}
+.sub-title{
+  margin-top: 50px;
+}
 .main-btns, .sub-btns, .type-btns{
   list-style: none;
   width: 100%;
-  margin-bottom: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -87,8 +97,8 @@ input {
   border-bottom: 1px solid #dedfdf;
 }
 .sub-btns{
-  border-top: 1px solid #dfdfdf;
-  border-bottom: 1px solid #dfdfdf;
+  /* border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf; */
 }
 .type-btns{
   /* border-top: 1px solid #dedfdf;
@@ -123,6 +133,25 @@ input {
   vertical-align: bottom;
   font-size: 0.7em;
 }
+
+.type-btns button b::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+
+.type-btns li:nth-of-type(1) button b::before{
+  background: #eee;
+}
+.type-btns li:nth-of-type(2) button b::before{
+  background: yellow;
+}
+.type-btns li:nth-of-type(3) button b::before{
+  background: #181818;
+}
 .main-btns button.active, .sub-btns button.active, .type-btns button.active{
   text-decoration: underline;
   color: pink;
@@ -143,6 +172,10 @@ input {
 }
 .type *{
   margin-bottom: 20px;
+}
+.font-title{
+  font-size: 30px;
+  text-transform: uppercase;
 }
 footer{
   text-align: center;

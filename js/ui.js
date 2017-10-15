@@ -46,26 +46,26 @@
       e.preventDefault();
       if(whatIsIt === mainBtns){
         mainActiveBtn = document.querySelector('.main-btns button.active');
-        mainActiveBtn.classList = [];
-        this.classList = ['active'];
+        mainActiveBtn.removeAttribute('class');
+        this.setAttribute('class', 'active');
         putId = 'main-content' + ' ' + this.getAttribute('id');
         titleValue = this.textContent;
         title.textContent = titleValue;
-        mainContent.classList = [putId];
+        mainContent.setAttribute('class', putId);
       } else if (whatIsIt === subBtns) {
         subActiveBtn = document.querySelector('.sub-btns button.active');
-        subActiveBtn.classList = [];
-        this.classList = ['active'];
+        subActiveBtn.removeAttribute('class');
+        this.setAttribute('class', 'active');
         putId = 'text' + ' ' + this.getAttribute('id');
         titleValue = '[ ' + this.textContent + ' ]';
         subTitle.textContent = titleValue;
-        subContent.classList = [putId];
+        subContent.setAttribute('class', putId);
       } else {
         typeActiveBtn = document.querySelector('.type-btns button.active');
-        typeActiveBtn.classList = [];
-        this.classList = ['active'];
+        typeActiveBtn.removeAttribute('class');
+        this.setAttribute('class', 'active');
         putId = 'text' + ' ' + this.getAttribute('id');
-        typeContent.classList = [putId];
+        typeContent.setAttribute('class', putId);
       }
     }
 
