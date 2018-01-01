@@ -19,7 +19,7 @@
       subTitle = document.querySelector('.sub-title');
       typeBtns = document.querySelectorAll('.type-btns button');
       typeContent = document.querySelector('.type');
-
+      
       bindEvents();
     }
 
