@@ -1,12 +1,9 @@
-
   // console.log(Element.prototype);
   (function(global){
     'use strict';
-
     // 지역 내 참조 변수 선언
     var forEach = Array.prototype.forEach;
     var document, mainBtns, mainContent, subBtns, subContent, typeBtns, typeContent, title, subTitle, whatIsIt, putId, titleValue, mainActiveBtn, subActiveBtn, typeActiveBtn;
-    
     // 초기화 함수
     function init() {
       // 컨트롤 수행할 요소를 참조
@@ -19,28 +16,23 @@
       subTitle = document.querySelector('.sub-title');
       typeBtns = document.querySelectorAll('.type-btns button');
       typeContent = document.querySelector('.type');
-      
       bindEvents();
     }
-
     // 이벤트 연결 함수
     function bindEvents() {
       forEach.call(mainBtns, function(btn){
         whatIsIt = mainBtns;
         btn.addEventListener('click', changeClass.bind(btn, whatIsIt));
       });
-    
       forEach.call(subBtns, function(btn){
         whatIsIt = subBtns;
         btn.addEventListener('click', changeClass.bind(btn, whatIsIt));
       });
-
       forEach.call(typeBtns, function(btn){
         whatIsIt = typeBtns;
         btn.addEventListener('click', changeClass.bind(btn, whatIsIt));
       });
     }
-    
     // 이벤트 핸들러(함수)
     function changeClass(whatIsIt, e) {
       e.preventDefault();
@@ -68,8 +60,6 @@
         typeContent.setAttribute('class', putId);
       }
     }
-
     // 초기화
     init();
-
   })(window);
