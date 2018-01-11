@@ -47,6 +47,16 @@ input {
   color: white;
 }
 
+.text div.type4 {
+  background: bule;
+  color: white;
+}
+
+.text div.type5 {
+  background: pink;
+  color: deeppink;
+}
+
 .reg *  {
   font-weight: 400;
 }
