@@ -48,7 +48,7 @@ input {
 }
 
 .text div.type4 {
-  background: bule;
+  background: blue;
   color: white;
 }
 
@@ -161,6 +161,12 @@ input {
 }
 .type-btns li:nth-of-type(3) button b::before{
   background: #181818;
+}
+.type-btns li:nth-of-type(4) button b::before {
+  background: blue;
+}
+.type-btns li:nth-of-type(5) button b::before {
+  background: pink;
 }
 .main-btns button.active, .sub-btns button.active, .type-btns button.active{
   text-decoration: underline;
