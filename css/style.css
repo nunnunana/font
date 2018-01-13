@@ -56,7 +56,10 @@ input {
   background: pink;
   color: deeppink;
 }
-
+.text div.type6 {
+  background: #dedfdf;
+  color: #181818;
+}
 .reg *  {
   font-weight: 400;
 }
@@ -167,6 +170,9 @@ input {
 }
 .type-btns li:nth-of-type(5) button b::before {
   background: pink;
+}
+.type-btns li:nth-of-type(6) button b::before {
+  background: #dedfdf;
 }
 .main-btns button.active, .sub-btns button.active, .type-btns button.active{
   text-decoration: underline;
