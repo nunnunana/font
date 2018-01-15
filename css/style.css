@@ -60,6 +60,7 @@ input {
   background: #dedfdf;
   color: #181818;
 }
+
 .reg *  {
   font-weight: 400;
 }
@@ -73,6 +74,7 @@ input {
   display: table;
   clear: both;
 }
+
 .headline{
   font-size: 60px;
   text-decoration: underline;
@@ -80,6 +82,7 @@ input {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .title, .sub-title {
   box-sizing: border-box;
   padding: 0 10%;
@@ -92,13 +95,16 @@ input {
   padding-bottom: 30px;
   border-bottom: 1px solid #dedfdf;
 }
+
 .type-btns{
   border-bottom: 1px solid #dedfdf;
 
 }
+
 .sub-title{
   margin-top: 50px;
 }
+
 .main-btns, .sub-btns, .type-btns{
   list-style: none;
   width: 100%;
@@ -110,12 +116,8 @@ input {
   border-bottom: 1px solid #dedfdf;
 }
 .sub-btns{
-  /* border-top: 1px solid #dfdfdf;
-  border-bottom: 1px solid #dfdfdf; */
 }
 .type-btns{
-  /* border-top: 1px solid #dedfdf;
-  border-bottom: 1px solid #dedfdf; */
 }
 .main-btns li, .sub-btns li, .type-btns li{
   float: left;
