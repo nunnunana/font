@@ -186,6 +186,7 @@ input {
 
 .sub-btns button, .sub-title, .type-btns button{
   text-transform: uppercase;
+  cursor: pointer;
 }
 .sub-btns button, .type-btns button{
   font-size: 16px;
