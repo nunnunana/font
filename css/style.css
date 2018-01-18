@@ -76,11 +76,11 @@ input {
 }
 
 .headline{
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-size: 60px;
   text-decoration: underline;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .title, .sub-title {
@@ -90,15 +90,14 @@ input {
 }
 
 .title{
-  text-align: center;
   margin-top: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #dedfdf;
+  text-align: center;
 }
 
 .type-btns{
   border-bottom: 1px solid #dedfdf;
-
 }
 
 .sub-title{
@@ -106,10 +105,10 @@ input {
 }
 
 .main-btns, .sub-btns, .type-btns{
-  list-style: none;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+  list-style: none;
 }
 .main-btns{
   border-top: 1px solid #dedfdf;
@@ -127,11 +126,11 @@ input {
 .main-btns button, .sub-btns button, .type-btns button{
   padding: 0;
   border: 0 none;
+  background: none;
   line-height: 1.4em;
   font-size: 20px;
-  background: none;
-  vertical-align: baseline;
   color: #181818;
+  vertical-align: baseline;
 }
 .main-btns button:hover, .sub-btns button:hover, .type-btns button:hover{
   text-decoration: underline;
@@ -142,8 +141,8 @@ input {
 }
 .main-btns button::before, .sub-btns button::before, .type-btns button::before{
   content: '>';
-  width: 10px;
   display: inline-block;
+  width: 10px;
   margin-right: 10px;
   vertical-align: bottom;
   font-size: 0.7em;
@@ -151,9 +150,9 @@ input {
 
 .type-btns button b::before{
   content: '';
+  display: inline-block;
   width: 20px;
   height: 20px;
-  display: inline-block;
   margin-left: 10px;
   vertical-align: bottom;
 }
