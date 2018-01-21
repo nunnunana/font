@@ -71,7 +71,7 @@ input {
 
 .clearfix {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 
