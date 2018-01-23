@@ -111,6 +111,7 @@ input {
   list-style: none;
 }
 .main-btns{
+  height: auto;
   border-top: 1px solid #dedfdf;
   border-bottom: 1px solid #dedfdf;
 }
