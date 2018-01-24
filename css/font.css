@@ -14,19 +14,19 @@
 @import url('http://fonts.googleapis.com/css?family=Inconsolata&text=1234567890!#$%*&');
 
 .nanumgothic {
-  font-family: 'Inconsolata', 'Lato', 'Nanum Gothic', sans-serif;
+  font-family: 'Nanum Gothic', 'Inconsolata', 'Lato', sans-serif;
 }
 .nanumsquare {
-  font-family: 'Inconsolata', 'Lato', 'NanumSquare', sans-serif;
+  font-family: 'NanumSquare', 'Inconsolata', 'Lato', sans-serif;
 }
 .nanumbarungothic {
-  font-family: 'Inconsolata', 'Lato', 'Nanum Barun Gothic', sans-serif;
+  font-family: 'Nanum Barun Gothic', 'Inconsolata', 'Lato', sans-serif;
 }
 .notosans {
-  font-family: 'Inconsolata', 'Lato', 'Noto Sans Korean', sans-serif;
+  font-family: 'Noto Sans Korean', 'Inconsolata', 'Lato', sans-serif;
 }
 .spoqa {
-  font-family: 'Inconsolata', 'Lato', 'SpoqaHanSans', sans-serif;
+  font-family: 'SpoqaHanSans', 'Inconsolata', 'Lato', sans-serif;
 }
 
 /** 이하는 공통 **/
