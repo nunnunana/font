@@ -56,6 +56,7 @@ input {
   background: pink;
   color: deeppink;
 }
+
 .text div.type6 {
   background: #dedfdf;
   color: #181818;
@@ -110,17 +111,20 @@ input {
   padding-bottom: 20px;
   list-style: none;
 }
+
 .main-btns{
   height: auto;
   border-top: 1px solid #dedfdf;
   border-bottom: 1px solid #dedfdf;
   
 }
+
 .main-btns li, .sub-btns li, .type-btns li{
   float: left;
   margin-right: 30px;
   line-height: 1.4em;
 }
+
 .main-btns button, .sub-btns button, .type-btns button{
   padding: 0;
   border: 0 none;
@@ -130,13 +134,16 @@ input {
   color: #181818;
   vertical-align: baseline;
 }
+
 .main-btns button:hover, .sub-btns button:hover, .type-btns button:hover{
   text-decoration: underline;
   color: pink;
 }
+
 .main-btns button:focus, .sub-btns button:focus, .type-btns button:focus{
   outline: 1px dotted pink;
 }
+
 .main-btns button::before, .sub-btns button::before, .type-btns button::before{
   content: '>';
   display: inline-block;
@@ -158,25 +165,32 @@ input {
 .type-btns li:nth-of-type(1) button b::before{
   background: #eee;
 }
+
 .type-btns li:nth-of-type(2) button b::before{
   background: yellow;
 }
+
 .type-btns li:nth-of-type(3) button b::before{
   background: #181818;
 }
+
 .type-btns li:nth-of-type(4) button b::before {
   background: blue;
 }
+
 .type-btns li:nth-of-type(5) button b::before {
   background: pink;
 }
+
 .type-btns li:nth-of-type(6) button b::before {
   background: #dedfdf;
 }
+
 .main-btns button.active, .sub-btns button.active, .type-btns button.active{
   text-decoration: underline;
   color: pink;
 }
+
 .main-btns button.active::before, .sub-btns button.active::before, .type-btns button.active::before{
   content: '✓';
 }
@@ -185,6 +199,7 @@ input {
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .sub-btns button, .type-btns button{
   font-size: 16px;
 }
@@ -192,21 +207,26 @@ input {
 .sub-title{
   font-size: 30px;
 }
+
 .type *{
   margin-bottom: 20px;
 }
+
 .font-title{
   font-size: 30px;
   text-transform: uppercase;
 }
+
 footer{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .vision-text {
   text-align: center; font-size: 25px; line-height: 1.8em; font-weight: 500; font-size: 27px; line-height: 1.8em; color: #909090;
 }
+
 .vision-text strong{
   font-weight: 900;
 }
@@ -214,6 +234,7 @@ footer{
 .player-title {
   text-align: left; font-size: 25px; line-height: 1.6em; font-weight: 900;
 }
+
 .player-text {
   text-align: left; font-size: 24px; line-height: 1.6em; font-weight: 500;
 }
