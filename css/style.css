@@ -114,6 +114,7 @@ input {
   height: auto;
   border-top: 1px solid #dedfdf;
   border-bottom: 1px solid #dedfdf;
+  
 }
 .main-btns li, .sub-btns li, .type-btns li{
   float: left;
@@ -202,4 +203,17 @@ footer{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.vision-text {
+  text-align: center; font-size: 25px; line-height: 1.8em; font-weight: 500; font-size: 27px; line-height: 1.8em; color: #909090;
+}
+.vision-text strong{
+  font-weight: 900;
+}
+
+.player-title {
+  text-align: left; font-size: 25px; line-height: 1.6em; font-weight: 900;
+}
+.player-text {
+  text-align: left; font-size: 24px; line-height: 1.6em; font-weight: 500;
 }
